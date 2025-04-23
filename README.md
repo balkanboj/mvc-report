@@ -1,6 +1,7 @@
 # Projekt Namn
 
-![Projektbild](\\wsl.localhost\Ubuntu\home\yugo\dbwebb-kurser\mvc\me\report\assets\images\home.png)
+![Projektbild](/assets/images/home.png)
+
 
 ## Beskrivning
 
@@ -29,4 +30,4 @@ Följ dessa steg för att komma igång med projektet:
    För att klona repot till din lokala maskin, kör följande kommando i din terminal:
 
    ```bash
-   git clone https://github.com/balkanboj/mvc.git
+   git clone git@github.com:balkanboj/mvc-report.git
