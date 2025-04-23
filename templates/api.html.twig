@@ -1,0 +1,16 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}API Routes{% endblock %}
+
+{% block body %}
+    <main class="api-main">
+        <h1>Welcome to the API</h1>
+
+        <h2>Available JSON API Routes</h2>
+        <ul>
+            <li><a href="{{ path('api_quote') }}">/api/quote</a> - Get today's quote in JSON format</li>
+        </ul>
+
+        <p>To get a quote, visit the <a href="{{ path('api_quote') }}">/api/quote</a> route.</p>
+    </main>
+{% endblock %}

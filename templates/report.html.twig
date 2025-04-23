@@ -1,0 +1,75 @@
+{% extends "base.html.twig" %}
+
+{% block title %}Report{% endblock %}
+
+{% block body %}
+    <h1>Report</h1>
+    <div class="two-col-report">
+    <aside class="aside">
+        <h4>Innehållsförteckning</h4>
+        <ul>
+                <li><a href="#kmom01">kmom01</a></li>
+                <li><a href="#kmom02">kmom02</a></li>
+                <li><a href="#kmom03">kmom03</a></li>
+                <li><a href="#kmom04">kmom04</a></li>
+                <li><a href="#kmom05">kmom05</a></li>
+                <li><a href="#kmom06">kmom06</a></li>
+                <li><a href="#kmom10">kmom10</a></li>
+        </ul>
+    </aside>
+
+    <main class="main-R">
+        <h1>Redovisning</h1>
+
+        <article class="article">
+            <h2 id="kmom01">kmom01</h2>
+            <h3>Berätta kort om dina förkunskaper och tidigare erfarenheter kring objektorientering.</h3>
+            <p>Jag har tidigare arbetat med objetorientering i en liknande kurs som heter oopython.</p>
+
+            <h3>Berätta kort om PHPs modell för klasser och objekt. Vilka är de grunder man behöver veta/förstå för att kunna komma igång och skapa sina första klasser?</h3>
+            <p>Jag har inte kodad så mycket i PHP än, men jag har hört att det liknar hur man jobbar med OOP i Python. Det verkar vara samma idé med klasser och objekt, där en klass är som en mall för att skapa objekt. Du definierar objektets egenskaper och metoder, och sen kan du skapa objekt från den klassen, precis som i Python.</p>
+
+            <h3>Reflektera kort över den kodbas, koden, strukturen som användes till uppgiften me/report, hur uppfattar du den?</h3>
+            <p>Jag har följt samma struktur som jag har använt tidigare i kursen Webtec. Koden och strukturen känns ganska bekant eftersom jag har arbetat med liknande upplägg innan.</p>
+            
+            <h3>Med tanke på artikeln “PHP The Right Way”, vilka delar in den finner du extra intressanta och värdefulla? Är det några särskilda områden som du känner att du vill veta mer om? Lyft fram några delar av artikeln som du känner mer värdefulla.</h3>
+            <p>I "PHP The Right Way" är Namespaces en viktig del för att undvika konflikter mellan olika bibliotek med samma klassnamn. Genom att använda Namespaces kan du säkerställa att din kod fungerar bra tillsammans med andra utan problem. PSR-4 är den rekommenderade standarden för att organisera namnrymder och filer på ett sätt som gör koden enklare att använda och underhålla.</p>
+
+            <h3>Vilken är din TIL för detta kmom?</h3>
+            <p>Min TIL (Today I Learned) för denna vecka är användningen av Symfony-ramverket. Jag har lärt mig hur man strukturerar en webapplikation med Symfony, hanterar rutter, och använder funktioner som controller och templating för att skapa dynamiska sidor.</p>
+
+
+        </article>
+
+        <article class="article">
+            <h2 id="kmom02">kmom02</h2>
+        </article>
+
+        <article class="article">
+            <h2 id="kmom03">kmom03</h2>
+        </article>
+
+        <article class="article">
+            <h2 id="kmom04">kmom04</h2>
+            <p></p>
+        </article>
+
+        <article class="article">
+            <h2 id="kmom05">kmom05</h2>
+            <p></p>
+        </article>
+
+        <article class="article">
+            <h2 id="kmom06">kmom06</h2>
+            <p></p>
+        </article>
+
+        <article class="article">
+            <h2 id="kmom10">kmom10</h2>
+            <p></p>
+        </article>
+
+        
+    </main>
+</div>
+{% endblock %}

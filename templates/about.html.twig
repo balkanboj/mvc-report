@@ -1,0 +1,24 @@
+{% extends "base.html.twig" %}
+
+{% block title %}About{% endblock %}
+
+{% block body %}
+    <main>
+        <h1>About</h1>
+        
+        <div class="container">
+            <div class="container-L">
+                <div class="textbox"><p>MVC-kursen (Objektorienterade Webbteknologier) fokuserar på objektorienterad programmering med språket PHP.
+                Kursen går igenom hur man designar och implementerar robusta, skalbara applikationer med hjälp av moderna webbramverk 
+                samt integrerar enhetstester för att säkerställa kodens kvalitet.</p></div>
+
+                <a href="https://github.com/dbwebb-se/mvc/tree/main">Kursens Github Repo</a>
+                <a href="https://github.com/balkanboj/mvc">Mitt Github Repo</a>
+            </div>
+            <div class="container-R">
+                <img id="picture" src="{{ asset('build/images/oop-copy-2.jpg') }}" alt="OOP">
+            </div>
+        </div>
+
+    </main>
+{% endblock %}

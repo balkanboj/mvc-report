@@ -1,0 +1,24 @@
+{% extends "base.html.twig" %}
+
+{% block title %}Lucky{% endblock %}
+
+{% block body %}
+    <main>
+        <h1>Lucky</h1>
+
+        <div class="container-L">
+            <h1>Magical number of wonders!</h1>
+            <h2>This is the current magic number: {{ number }}</h2>
+            {% if number is odd %}
+                <img class="spin-hover" src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExMTh1eG9mYWpnNG44Mno3dzRvZ2llNmZoMGUyMjQ0NzQxYXE5YWZ0MiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/OUUnxL2NbwNuX16EfK/giphy.gif" 
+                    alt="You got an odd number!" 
+                    style="width: 300px; margin-top: 20px;">
+            {% elseif number is even %}
+                <img class="spin-hover" src="https://media1.tenor.com/m/OJ5PjAaKcdEAAAAC/minecraft-minecraft-movie.gif" 
+                    alt="Even number vibes!" 
+                    style="width: 300px; margin-top: 20px;">
+            {% endif %}
+        </div>
+
+    </main>
+{% endblock %}
